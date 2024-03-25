@@ -7,22 +7,23 @@ import ItemCard from '../components/ItemCard.vue'
     <ItemCard
       title="Krauの杂货铺"
       subtitle="1 个发各种东西的 Telegram 频道"
-      src="/acherkrau.jpg"
+      src="/acherkrau.webp"
       description="其实很多时候是搬运互联网废料 ( 但是偶尔也有 有 用 的 东西 !"
       href="https://acherkrau.t.me"
     />
     <ItemCard
       title="自建 RSSHub"
       subtitle="比官方实例缓存时间短得多的自建示例 ("
-      src="/rsshub.png"
+      src="/rsshub.webp"
       description="好像不需要解释什么, 总之调整了设置所以缓存时间比较短, 域名就是这里的域名加上 rss. "
       href="https://rss.unv.app"
       layout="row"
-    ></ItemCard>
+    >
+    </ItemCard>
     <ItemCard
       title="kmua"
-      subtitle="用 Python 写 ① 个的 Telegram 机器人"
-      src="/kmua.jpg"
+      subtitle="用 Python 写的 ① 个 Telegram 机器人"
+      src="/kmua.webp"
       description="一开始只是写着自己玩, 但是没想到自从写了个'抽老婆'之后就很多人用了 ( 现在还写了一些比较实用的小功能, 可以来用用看 ("
       href="https://github.com/krau/kmua-bot"
     />
@@ -33,7 +34,8 @@ import ItemCard from '../components/ItemCard.vue'
       description="打了个问号是因为还没写完, 但是现在已经咕咕很久了. 总之一开始的时候设想很美好,
         还用到了一些过度设计的东西 (  以及有同名 Telegram 频道, 欢迎关注 "
       href="https://github.com/krau/manyacg"
-    ></ItemCard>
+    >
+    </ItemCard>
     <ItemCard
       title="Alist 云盘"
       subtitle="用 Alist 搭建的公开云盘"
@@ -41,7 +43,8 @@ import ItemCard from '../components/ItemCard.vue'
       description="主要是 1 些二次元资源 ( "
       href="https://alist.unv.app"
       layout="row"
-    ></ItemCard>
+    >
+    </ItemCard>
   </var-space>
 
   <div class="text-container">
