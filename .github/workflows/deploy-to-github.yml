@@ -1,0 +1,33 @@
+name: Depoly to Github Repository
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: 📦 Install Dependencies
+        run: bun install
+
+      - name: 🌌 Build
+        run: bun run build-only
+
+      - name: 🪤 Deploy to public repository
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: krau/statics
+          publish_branch: unvapp
+          publish_dir: ./dist
+          force_orphan: true
