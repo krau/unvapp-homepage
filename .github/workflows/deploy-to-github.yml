@@ -1,4 +1,4 @@
-name: Depoly to Github Repository
+name: Depoly to Github
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
       - name: 🌌 Build
         run: bun run build-only
 
-      - name: 🪤 Deploy to public repository
+      - name: 🪤 Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
