@@ -14,7 +14,7 @@ import ItemCard from '../components/ItemCard.vue'
       description="一开始只是写着自己玩, 但是没想到自从写了个'抽老婆'之后就很多人用了 ( 现在还写了一些比较实用的小功能, 可以来用用看 ("
       href="https://github.com/krau/kmua-bot" />
     <ItemCard title="ManyACG" subtitle="一套 ACG 图片爬取和收集方案?" src="/manyacg.webp" description="打了个问号是因为还没写完, 但是现在已经咕咕很久了. 总之一开始的时候设想很美好,
-        还用到了一些过度设计的东西 (  以及有同名 Telegram 频道, 欢迎关注 " href="https://github.com/krau/manyacg">
+        还用到了一些过度设计的东西 (  以及有同名 Telegram 频道, 欢迎关注 " href="https://manyacg.t.me/">
     </ItemCard>
     <ItemCard title="Alist 云盘" subtitle="用 Alist 搭建的公开云盘" src="/alist.svg" description="主要是 1 些二次元资源 ( "
       href="https://alist.unv.app" layout="row">
