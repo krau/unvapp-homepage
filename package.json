@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@varlet/ui": "^3.2.1",
-    "artalk": "^2.8.3",
+    "artalk": "^2.8.5",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
