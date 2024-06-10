@@ -19,8 +19,9 @@ import ItemCard from '../components/ItemCard.vue'
     <ItemCard title="Alist 云盘" subtitle="用 Alist 搭建的公开云盘" src="/alist.svg" description="主要是 1 些二次元资源 ( "
       href="https://alist.unv.app" layout="row">
     </ItemCard>
-    <ItemCard title="Gopeed Chrome Extension" subtitle="Gopeed 浏览器插件" src="/gopeed.png"
-      description="把浏览器的下载传递到 Gopeed 下载器...但有一说一我自己都不咋用 ( " href="https://github.com/krau/Gopeed-Chrome-Extension" layout="row">
+    <ItemCard title="Gopeed Chrome Extension" subtitle="Gopeed 浏览器插件"
+      src="https://socialify.git.ci/krau/Gopeed-Chrome-Extension/image?font=Source%20Code%20Pro&forks=1&issues=1&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F125134399%3Fs%3D200%26v%3D4&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Auto"
+      description="把浏览器的下载传递到 Gopeed 下载器...但有一说一我自己都不咋用 ( " href="https://github.com/krau/Gopeed-Chrome-Extension">
     </ItemCard>
   </var-space>
 
