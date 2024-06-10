@@ -19,6 +19,9 @@ import ItemCard from '../components/ItemCard.vue'
     <ItemCard title="Alist 云盘" subtitle="用 Alist 搭建的公开云盘" src="/alist.svg" description="主要是 1 些二次元资源 ( "
       href="https://alist.unv.app" layout="row">
     </ItemCard>
+    <ItemCard title="Gopeed Chrome Extension" subtitle="Gopeed 浏览器插件" src="/gopeed.png"
+      description="把浏览器的下载传递到 Gopeed 下载器...但有一说一我自己都不咋用 ( " href="https://alist.unv.app" layout="row">
+    </ItemCard>
   </var-space>
 
   <div class="text-container">
