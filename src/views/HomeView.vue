@@ -43,7 +43,7 @@ import ItemCard from '../components/ItemCard.vue'
 }
 
 .var-card__container {
-    padding: 20px 5px 25px 5px!important;
+    padding: 25px 5px 25px 5px!important;
 }
 
 .var-space--auto {
