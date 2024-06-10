@@ -51,11 +51,15 @@ import ItemCard from '../components/ItemCard.vue'
 }
 
 .var-card__description {
-  margin-top:20px!important;
+  margin-top:15px!important;
 }
 
 .var-card__title {
   margin-top:0px!important;
+}
+
+.var-card__subtitle {
+  margin-top:5px!important;
 }
   
 .text-container {
