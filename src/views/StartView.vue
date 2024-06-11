@@ -6,8 +6,7 @@
       <br />
       <br />所以为了物尽其用就做了个小页面来展示些和博客不一样的东西 ( <br /><br />
       <var-link type="primary" underline="none" to="/home">
-        <var-button text size="large" block>来看看吧→</var-button></var-link
-      >
+        <var-button text size="large" block>来看看吧→</var-button></var-link>
     </p>
   </div>
 </template>

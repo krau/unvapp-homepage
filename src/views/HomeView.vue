@@ -34,34 +34,6 @@ import ItemCard from '../components/ItemCard.vue'
 </template>
 
 <style scoped>
-  
-.var-card--layout-row .var-card__image {
-    height:105px!important;
-    width:105px!important;
-    margin:20px;
-    margin-top:22px;
-}
-
-.var-card__container {
-    padding: 25px 5px 25px 5px!important;
-}
-
-.var-space--auto {
-  margin: 0 0 30px 0!important;
-}
-
-.var-card__description {
-  margin-top:15px!important;
-}
-
-.var-card__title {
-  margin-top:0px!important;
-}
-
-.var-card__subtitle {
-  margin-top:5px!important;
-}
-  
 .text-container {
   display: flex;
   justify-content: center;
