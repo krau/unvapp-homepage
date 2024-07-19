@@ -1,14 +1,6 @@
 <template>
-  <var-card
-    :title="props.title"
-    :subtitle="props.subtitle"
-    :src="props.src"
-    :description="props.description"
-    ripple
-    class="item"
-    @click="openLink(props.href)"
-    :layout="props.layout"
-  >
+  <var-card :title="props.title" :subtitle="props.subtitle" :src="props.src" :description="props.description" ripple
+    class="item" @click="openLink(props.href)" :layout="props.layout">
   </var-card>
 </template>
 
@@ -36,6 +28,10 @@ const openLink = (href: string) => {
   max-width: 800px;
   margin: 0 auto;
   transition: transform 0.3s ease;
+  --card-image-height: 300px;
+  --card-title-font-size: 1.5rem;
+  --card-subtitle-font-size: 1rem;
+  --card-padding: 0.5rem;
 }
 
 .item:hover {
